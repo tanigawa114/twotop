@@ -9,3 +9,12 @@ h1 {
 h2{
 	border-bottom:dotted 1px black;
 }
+
+#name{
+	text-align:right;
+
+}
+
+#message{
+	margin-right:30px;
+}
