@@ -1,31 +1,28 @@
 /* @author Tanigawa */
 @charset "UTF-8";
 
+/* ベースとなるスタイル
+---------------------------------------------------------------------------------------------------------------------*/
 #footer {
-	border: 1px solid black;
 	color: white;
 	background-color: #aaaaaa;
-	height: 160px;
-	margin: 0;
-	padding: 0;
 }
 
+/* 画像
+---------------------------------------------------------------------------------------------------------------------*/
 #towtop_logo {
-	position: relative border: 1px solid black;
-	height: 70px;
-	width: 100px;
-	float: left;
-	text-align: center;
+	border: 1px solid black;
 }
 
 img {
-/* 	position: absolute; */
-	top: 50%
+	width: 180px;
+	height: 100px;
 }
 
+/* インフォメーション
+---------------------------------------------------------------------------------------------------------------------*/
 #footer_info {
 	border: 1px solid black;
-	padding: 0px 0px 0px 200px;
 }
 
 #footer_info ul {
