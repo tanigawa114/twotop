@@ -7,3 +7,7 @@ $(function() {
 $(function() {
 	$("#footer").load("footer.html");
 });
+
+$(function() {
+	$("#side").load("side.html");
+});
