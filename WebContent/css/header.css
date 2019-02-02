@@ -1,6 +1,59 @@
 /* @author Tanigawa */
 @charset "UTF-8";
 
-#header_icon {
-	width: 100%;
+/* ベースとなるスタイル
+---------------------------------------------------------------------------------------------------------------------*/
+#header {
+	height: 100px;
+	color: white;
+	background-color: #aaaaaa;
+}
+
+/* 画像
+---------------------------------------------------------------------------------------------------------------------*/
+#header_logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid black;
+}
+
+#header_logo img {
+	width: 180px;
+	height: 100px;
+}
+
+/* ナビゲーション
+---------------------------------------------------------------------------------------------------------------------*/
+#header_navi {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid black;
+}
+
+#navi-1 {
+	border: 1px solid black;
+	height: 50px;
+	width: 80px;
+}
+
+#navi-2 {
+	border: 1px solid black;
+	height: 50px;
+	width: 80px;
+}
+
+#navi-3 {
+	border: 1px solid black;
+	height: 50px;
+	width: 80px;
+}
+
+#navi-4 {
+	border: 1px solid black;
+	height: 50px;
+	width: 80px;
 }
