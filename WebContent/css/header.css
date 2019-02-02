@@ -1,7 +1,6 @@
 /* @author Tanigawa */
 @charset "UTF-8";
 
-#header {
-	color: white;
-	background-color: red;
+#header_icon {
+	width: 100%;
 }
