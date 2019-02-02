@@ -1,0 +1,39 @@
+/* @author Ueki */
+@charset "UTF-8";
+
+h1 {
+	background-color: #888888;
+}
+
+div {
+	display: block;
+	clear: both;
+	margin: 0px;
+}
+
+#left {
+	color: #FFFFFF;
+	background-color: #87cefa;
+	float: left;
+	text-align: left;
+	padding: 0px;
+}
+
+left.menu {
+	background-repeat: no-repeat;
+	color: blue;
+}
+
+h2 {
+	background-color: #7fffd4;
+	color: #f0f8ff;
+}
+
+#right {
+	float: right;
+	text-align: right;
+}
+
+h3 {
+	text-size: 5;
+}
