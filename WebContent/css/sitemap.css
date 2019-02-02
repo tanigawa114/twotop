@@ -9,3 +9,7 @@ h1 {
 h2{
 	border-bottom:dotted 1px black;
 }
+
+.h2{
+	margin-bottom:10px;
+}
