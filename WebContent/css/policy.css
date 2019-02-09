@@ -11,5 +11,50 @@ h1 {
 /* ライン
 ---------------------------------------------------------------------------------------------------------------------*/
 h2{
-	border-bottom:dotted 1px black;
+	background-color:pink;
+	font-size:2px;
+}
+
+/* 見出しよりも本文の幅を狭くする
+---------------------------------------------------------------------------------------------------------------------*/
+p{
+	margin:0 30px;
+}
+
+ol{
+	margin:0 30px;
+}
+
+#policy-menu1{
+	font-size:8px;
+}
+
+/* 段落ごとに空白を開ける
+---------------------------------------------------------------------------------------------------------------------*/
+#policy-text1{
+	padding-bottom:30px;
+}
+
+#policy-text2{
+	padding-bottom:30px;
+}
+
+#policy-text3{
+	padding-bottom:30px;
+}
+
+#policy-text4{
+	padding-bottom:30px;
+}
+
+#policy-text5{
+	padding-bottom:30px;
+}
+
+#policy-text6{
+	padding-bottom:30px;
+}
+
+#policy-text7{
+	padding-bottom:30px;
 }
