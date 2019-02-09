@@ -4,5 +4,12 @@
 /* ベースとなるスタイル
 ---------------------------------------------------------------------------------------------------------------------*/
 .container-fluid {
-	height: 800px;
+	background-color: aliceblue;
+ 	height: 800px;
+}
+
+#main {
+	background: url(../img/sample_image.svg);
+	background-size:cover;
+ 	height: 800px;
 }
