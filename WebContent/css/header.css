@@ -4,56 +4,92 @@
 /* ベースとなるスタイル
 ---------------------------------------------------------------------------------------------------------------------*/
 #header {
-	height: 100px;
-	color: white;
-	background-color: #aaaaaa;
+	height: 80px;
+	color: black;
+	background-color: white;
 }
 
 /* 画像
 ---------------------------------------------------------------------------------------------------------------------*/
-#header_logo {
+#header-logo {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	border: 1px solid black;
+	height: 80px;
+/* 	background-color: lavender; */
+
+
+	border-right: 1px solid;
 }
 
-#header_logo img {
-	width: 180px;
-	height: 100px;
+#logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: powderblue;
+	font-size: 60px;
+	font-family: arial black;
+	width: 300px;
+	height: 60px;
+}
+
+#header-logo img {
+	background-color: powderblue;
+	width: 300px;
+	height: 60px;
 }
 
 /* ナビゲーション
 ---------------------------------------------------------------------------------------------------------------------*/
-#header_navi {
+#header-navi {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	border: 1px solid black;
+	height: 80px;
+	font-size: 20px;
+	font-family: serif;
+/* 	background-color: honeydew; */
 }
 
 #navi-1 {
-	border: 1px solid black;
-	height: 50px;
-	width: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: bisque;
+	height: 20px;
+	width: 150px;
 }
 
 #navi-2 {
-	border: 1px solid black;
-	height: 50px;
-	width: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: bisque;
+	height: 20px;
+	width: 150px;
 }
 
 #navi-3 {
-	border: 1px solid black;
-	height: 50px;
-	width: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: bisque;
+	height: 20px;
+	width: 150px;
 }
 
 #navi-4 {
-	border: 1px solid black;
-	height: 50px;
-	width: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: bisque;
+	height: 20px;
+	width: 150px;
 }
