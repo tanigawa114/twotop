@@ -18,3 +18,35 @@ h2{
 .h2{
 	margin-bottom:10px;
 }
+
+/*レコードごとのCSS
+---------------------------------------------------------------------------------------------------------------------*/
+
+#sitemap-column1{
+	background-color:lemonchiffon;
+}
+
+#sitemap-column2{
+	background-color:lemonchiffon;
+}
+
+#sitemap-column3{
+	background-color:lemonchiffon;
+}
+
+#sitemap-column4{
+	background-color:lemonchiffon;
+}
+
+#sitemap-column5{
+	background-color:lemonchiffon;
+}
+
+#sitemap-column6{
+	background-color:lemonchiffon;
+}
+
+#sitemap-column7{
+	background-color:lemonchiffon;
+}
+
