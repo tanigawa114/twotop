@@ -14,13 +14,13 @@
 
 /* テキスト選択時の文字色・背景色 */
 ::selection {
-	background: steelblue;
+	background: red;
 	color: #fff;
 }
 
 /* テキスト選択時の文字色・背景色（Firefox） */
 ::-moz-selection {
-	background: steelblue;
+	background: red;
 	color: #fff;
 }
 
