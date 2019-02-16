@@ -1,44 +1,6 @@
 /* @author Tanigawa */
 @charset "UTF-8";
 
-/* 全ページのベースとなるスタイル
----------------------------------------------------------------------------------------------------------------------*/
-* {
-	box-sizing: border-box;
-}
-
-/* floatの解除 */
-.clear {
-	clear: left;
-}
-
-/* テキスト選択時の文字色・背景色 */
-::selection {
-	background: steelblue;
-	color: #fff;
-}
-
-/* テキスト選択時の文字色・背景色（Firefox） */
-::-moz-selection {
-	background: steelblue;
-	color: #fff;
-}
-
-body {
-	box-sizing: border-box;
-	/* フォントの種類 */
-	font-family: -apple-system, BlinkMacSystemFont,
-		"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-	/* フォントのサイズ */
-	font-size: 16px;
-	/* フォントの色 */
-	color: #333;
-	/* 文字間隔の調整の設定 */
-	letter-spacing: 1.5px;
-	/* 行間の設定 */
-	line-height: 1.75;
-}
-
 /* ベースとなるスタイル
 ---------------------------------------------------------------------------------------------------------------------*/
 #header {
