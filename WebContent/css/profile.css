@@ -8,100 +8,17 @@ h1 {
 	background-color: green;
 }
 
-
-
-
 /*第一項目の上に空白を開ける
 ---------------------------------------------------------------------------------------------------------------------*/
-#profile-container{
-	padding-top:30px;
+#profile-container {
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
-
-#profile-column1 {
+.container th {
 	background-color: lemonchiffon;
 }
 
-#profile-column2 {
-	background-color: lemonchiffon;
-}
-
-#profile-column3 {
-	background-color: lemonchiffon;
-}
-
-#profile-column4 {
-	background-color: lemonchiffon;
-}
-
-#profile-column5 {
-	background-color: lemonchiffon;
-}
-
-#profile-column6 {
-	background-color: lemonchiffon;
-}
-
-#profile-column7 {
-	background-color: lemonchiffon;
-}
-
-#profile-column8 {
-	background-color: lemonchiffon;
-}
-
-#profile-column9 {
-	background-color: lemonchiffon;
-}
-
-#profile-column10 {
-	background-color: lemonchiffon;
-}
-
-#profile-column11 {
-	background-color: lemonchiffon;
-}
-
-#profile-column12 {
-	background-color: lemonchiffon;
-}
-
-#profile-column13 {
-	background-color: lemonchiffon;
-}
-
-#profile-column14 {
-	background-color: lemonchiffon;
-}
-
-#profile-column15 {
-	background-color: lemonchiffon;
-}
-
-#profile-column16 {
-	background-color: lemonchiffon;
-}
-
-#profile-column17 {
-	background-color: lemonchiffon;
-}
-
-#profile-column18 {
-	background-color: lemonchiffon;
-}
-
-#profile-column19 {
-	background-color: lemonchiffon;
-}
-
-#profile-column20 {
-	background-color: lemonchiffon;
-}
-
-#profile-column21 {
-	background-color: lemonchiffon;
-}
-
-#profile-column22 {
+.container td {
 	background-color: lemonchiffon;
 }
