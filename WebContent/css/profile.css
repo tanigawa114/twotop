@@ -10,14 +10,15 @@ h1 {
 
 /*第一項目の上に空白を開ける
 ---------------------------------------------------------------------------------------------------------------------*/
-#profile-container{
-	padding-top:30px;
-	padding-bottom:30px;
+#profile-container {
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
-.container th{
+.container th {
 	background-color: lemonchiffon;
 }
-.container td{
+
+.container td {
 	background-color: lemonchiffon;
 }

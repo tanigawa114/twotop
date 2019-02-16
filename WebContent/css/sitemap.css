@@ -8,21 +8,21 @@ h1 {
 	background-color: green;
 }
 /* ライン */
-h2{
-	background-color:pink;
+h2 {
+	background-color: pink;
 }
 
 /* h2の余白調整 */
-.h2{
-	margin-bottom:10px;
+.h2 {
+	margin-bottom: 10px;
 }
 
 /* 第一項目の上に空白を開ける */
-.main{
-	padding-top:30px;
+.main {
+	padding-top: 30px;
 }
 
 /*レコードごとのCSS */
-.table td{
-	background-color:lemonchiffon;
+.table td {
+	background-color: lemonchiffon;
 }
