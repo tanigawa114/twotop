@@ -25,44 +25,30 @@ ol{
 	margin:0 30px;
 }
 
-#policy-menu1{
-	font-size:8px;
-}
-
-/* 第一項目の上に空白を開ける
----------------------------------------------------------------------------------------------------------------------*/
+/* 第一項目の上に空白を開ける */
 #policy-menu1{
 	padding-top:30px;
-}
-
-
-
-/* 段落ごとに空白を開ける
----------------------------------------------------------------------------------------------------------------------*/
-#policy-text1{
 	padding-bottom:30px;
 }
 
-#policy-text2{
+/* 段落ごとに空白を開ける */
+#policy-menu2{
+	padding-bottom:30px;
+	}
+#policy-menu3{
+	padding-bottom:30px;
+	}
+#policy-menu4{
+	padding-bottom:30px;
+	}
+#policy-menu5{
+	padding-bottom:30px;
+	}
+#policy-menu6{
+	padding-bottom:30px;
+	}
+#policy-menu7{
 	padding-bottom:30px;
 }
 
-#policy-text3{
-	padding-bottom:30px;
-}
 
-#policy-text4{
-	padding-bottom:30px;
-}
-
-#policy-text5{
-	padding-bottom:30px;
-}
-
-#policy-text6{
-	padding-bottom:30px;
-}
-
-#policy-text7{
-	padding-bottom:30px;
-}

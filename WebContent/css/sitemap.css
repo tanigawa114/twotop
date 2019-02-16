@@ -7,52 +7,22 @@ h1 {
 	color: white;
 	background-color: green;
 }
-/* ライン
----------------------------------------------------------------------------------------------------------------------*/
+/* ライン */
 h2{
 	background-color:pink;
 }
 
-/* h2の余白調整
----------------------------------------------------------------------------------------------------------------------*/
+/* h2の余白調整 */
 .h2{
 	margin-bottom:10px;
 }
 
-/* 第一項目の上に空白を開ける
----------------------------------------------------------------------------------------------------------------------*/
+/* 第一項目の上に空白を開ける */
 .main{
 	padding-top:30px;
 }
 
-/*レコードごとのCSS
----------------------------------------------------------------------------------------------------------------------*/
-
-#sitemap-column1{
+/*レコードごとのCSS */
+.table td{
 	background-color:lemonchiffon;
 }
-
-#sitemap-column2{
-	background-color:lemonchiffon;
-}
-
-#sitemap-column3{
-	background-color:lemonchiffon;
-}
-
-#sitemap-column4{
-	background-color:lemonchiffon;
-}
-
-#sitemap-column5{
-	background-color:lemonchiffon;
-}
-
-#sitemap-column6{
-	background-color:lemonchiffon;
-}
-
-#sitemap-column7{
-	background-color:lemonchiffon;
-}
-
