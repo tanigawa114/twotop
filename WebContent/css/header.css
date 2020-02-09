@@ -3,10 +3,11 @@
 
 /* ベースとなるスタイル
 ---------------------------------------------------------------------------------------------------------------------*/
-#header {
+#header-top-wrapper {
 	height: 80px;
 	color: black;
-	background-color: white;
+	background-color: #eee;
+	border-bottom: 1px solid #ccc;
 	/* テキストを選択させない */
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -14,12 +15,22 @@
 	user-select: none;
 }
 
+header a {
+	color: black;
+	text-decoration:none;
+}
+
+header a:hover {
+	color: black;
+	text-decoration:none;
+}
+
 /* 左側の画像
 ---------------------------------------------------------------------------------------------------------------------*/
-#header-logo {
+#header-right {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: start;
 	align-items: center;
 	height: 80px;
 }
@@ -29,15 +40,14 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	background-color: powderblue;
 	font-size: 60px;
-	font-family: arial black;
+	font-family: serif;
 	position: relative;
 	width: 300px;
 	height: 60px;
 }
 
-#header-logo a {
+#header-right a {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -51,15 +61,16 @@
 	display: none;
 }
 
-#global-navi {
+#header-left ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
 	height: 80px;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: serif;
 	cursor: default;
+	list-style: none;
 }
 
 #global-navi-1 {
@@ -228,4 +239,18 @@
 	background-color: rgba(0, 255, 0, 0.8);
 	height: 150px;
 	width: 100%;
+}
+
+/* モーダル
+---------------------------------------------------------------------------------------------------------------------*/
+#modal-content {
+	height: 500px;
+}
+
+.modal-body div {
+	margin: 30px;
+}
+
+.modal-body h5 {
+	border-bottom: dashed 1px #aaa;
 }

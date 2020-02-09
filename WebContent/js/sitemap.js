@@ -1,9 +1,6 @@
 // @author Akiyama
 
 $(function() {
-	$("#header").load("header.html");
-});
-
-$(function() {
-	$("#footer").load("footer.html");
+	$("header").load("header.html");
+	$("footer").load("footer.html");
 });

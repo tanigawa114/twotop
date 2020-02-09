@@ -3,9 +3,13 @@
 
 /* ベースとなるスタイル
 ---------------------------------------------------------------------------------------------------------------------*/
-#footer {
+#fooer-top-wrapper {
+	background-color: dimgray;
 	color: white;
-	background-color: #aaaaaa;
+	width: 100%;
+	border-top: 1px solid #ccc;
+	height: 250px;
+	font-size: 10px;
 }
 
 /* 画像
@@ -15,11 +19,9 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	background-color: silver;
 }
 
 #towtop_logo img {
-	background-color: steelblue;
 	width: 300px;
 	height: 60px;
 }
@@ -27,9 +29,14 @@
 /* インフォメーション
 ---------------------------------------------------------------------------------------------------------------------*/
 #footer_info {
-	background-color: slategray;
+	margin-top: 50px;
 }
 
 #footer_info ul {
 	list-style: none;
+}
+
+#footer_info a {
+	background-color: white;
+	padding: 5px;
 }

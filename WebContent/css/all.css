@@ -13,19 +13,11 @@
 }
 
 /* テキスト選択時の文字色・背景色 */
-::selection {
-	background: red;
-	color: #fff;
-}
-
-/* テキスト選択時の文字色・背景色（Firefox） */
-::-moz-selection {
-	background: red;
-	color: #fff;
+::selection, ::-moz-selection {
+	background: palegreen;
 }
 
 body {
-	box-sizing: border-box;
 	/* フォントの種類 */
 	font-family: -apple-system, BlinkMacSystemFont,
 		"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;

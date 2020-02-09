@@ -3,26 +3,14 @@
 
 /* ベースとなるスタイル
 ---------------------------------------------------------------------------------------------------------------------*/
-h1 {
-	color: white;
-	background-color: green;
-}
-/* ライン */
-h2 {
-	background-color: pink;
+#sitemap-main {
+	height: 750px;
 }
 
-/* h2の余白調整 */
-.h2 {
-	margin-bottom: 10px;
+dl {
+	border-bottom: 1px solid #c2c3cc;
 }
 
-/* 第一項目の上に空白を開ける */
-.main {
-	padding-top: 30px;
-}
-
-/*レコードごとのCSS */
-.table td {
-	background-color: lemonchiffon;
+dd div {
+	padding-bottom:20px;
 }

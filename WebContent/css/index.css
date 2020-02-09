@@ -3,13 +3,11 @@
 
 /* ベースとなるスタイル
 ---------------------------------------------------------------------------------------------------------------------*/
-.container-fluid {
+#top-wrapper {
 	background-color: aliceblue;
- 	height: 800px;
+	height: 700px;
 }
 
-#main {
-	background: url(../img/sample_image.svg);
-	background-size:cover;
- 	height: 800px;
+#top-image {
+	height: 700px;
 }
