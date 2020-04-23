@@ -1,0 +1,29 @@
+/* @author Ueki */
+@CHARSET "UTF-8";
+
+/*アコーディオン
+-------------------------------------------------------------------------------------------------------------------- */
+.accordion1 {
+	text-align: center;
+}
+
+.accordion1 .inner {
+	display: none;
+}
+
+.accordion1 p {
+	cursor: pointer;
+	padding: 10px;
+}
+
+.accordion1 p.ac {
+	background: #87cefa;
+}
+
+.accordion1 .inner li {
+	padding: 10px 0;
+}
+
+.accordion1 .inner li.content1-1 {
+	background: #F48FB1;
+}

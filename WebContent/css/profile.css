@@ -1,5 +1,24 @@
-@CHARSET "UTF-8";
+/* @author Akiyama */
+@charset "UTF-8";
+
+/* ベースとなるスタイル
+---------------------------------------------------------------------------------------------------------------------*/
 h1 {
 	color: white;
 	background-color: green;
+}
+
+/*第一項目の上に空白を開ける
+---------------------------------------------------------------------------------------------------------------------*/
+#profile-container {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.container th {
+	background-color: lemonchiffon;
+}
+
+.container td {
+	background-color: lemonchiffon;
 }

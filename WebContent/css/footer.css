@@ -1,6 +1,42 @@
+/* @author Tanigawa */
 @charset "UTF-8";
 
-h1 {
+/* ベースとなるスタイル
+---------------------------------------------------------------------------------------------------------------------*/
+#fooer-top-wrapper {
+	background-color: dimgray;
 	color: white;
-	background-color: blue;
+	width: 100%;
+	border-top: 1px solid #ccc;
+	height: 250px;
+	font-size: 10px;
+}
+
+/* 画像
+---------------------------------------------------------------------------------------------------------------------*/
+#towtop_logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#towtop_logo img {
+	width: 300px;
+	height: 60px;
+}
+
+/* インフォメーション
+---------------------------------------------------------------------------------------------------------------------*/
+#footer_info {
+	margin-top: 50px;
+}
+
+#footer_info ul {
+	list-style: none;
+}
+
+#footer_info a {
+	background-color: white;
+	padding: 5px;
 }

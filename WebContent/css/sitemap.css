@@ -1,13 +1,16 @@
-/* @author Tanigawa */
+/* @author Akiyama */
 @charset "UTF-8";
 
 /* ベースとなるスタイル
 ---------------------------------------------------------------------------------------------------------------------*/
-#top-wrapper {
-	background-color: aliceblue;
-	height: 700px;
+#sitemap-main {
+	height: 750px;
 }
 
-#top-image {
-	height: 700px;
+dl {
+	border-bottom: 1px solid #c2c3cc;
+}
+
+dd div {
+	padding-bottom:20px;
 }

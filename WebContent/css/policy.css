@@ -1,0 +1,57 @@
+/* @author Akiyama */
+@charset "UTF-8";
+
+/* ベースとなるスタイル
+---------------------------------------------------------------------------------------------------------------------*/
+h1 {
+	color: white;
+	background-color: #111111;
+}
+
+/* ライン
+---------------------------------------------------------------------------------------------------------------------*/
+h2 {
+	background-color: pink;
+	font-size: 2px;
+}
+
+/* 見出しよりも本文の幅を狭くする
+---------------------------------------------------------------------------------------------------------------------*/
+p {
+	margin: 0 30px;
+}
+
+ol {
+	margin: 0 30px;
+}
+
+/* 第一項目の上に空白を開ける */
+#policy-menu1 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/* 段落ごとに空白を開ける */
+#policy-menu2 {
+	padding-bottom: 30px;
+}
+
+#policy-menu3 {
+	padding-bottom: 30px;
+}
+
+#policy-menu4 {
+	padding-bottom: 30px;
+}
+
+#policy-menu5 {
+	padding-bottom: 30px;
+}
+
+#policy-menu6 {
+	padding-bottom: 30px;
+}
+
+#policy-menu7 {
+	padding-bottom: 30px;
+}
